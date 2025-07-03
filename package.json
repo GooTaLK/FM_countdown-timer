@@ -1,0 +1,15 @@
+{
+  "name": "launch-countdown-timer-main",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "style-object-to-css-string": "^1.1.3"
+  }
+}

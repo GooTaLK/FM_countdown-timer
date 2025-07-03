@@ -11,54 +11,74 @@
     />
 
     <title>Launch countdown timer</title>
+    <link rel="stylesheet" href="styles.css" />
+
+    <script defer type="module" src="./main.js"></script>
   </head>
   <body>
+    <div class="background">
+      <div class="stars"></div>
+      <div class="hills"></div>
+    </div>
     <main>
-      <h1>We're launching soon</h1>
+      <header>
+        <h1 class="header">We're launching soon</h1>
+      </header>
 
-      <section class="count-container">
-        <div class="count-box">
-          <div>
-            <span data-next-count="00">00</span
-            ><span data-current-count="00">00</span>
+      <section class="cards-container">
+        <div class="card-box counter--days">
+          <div class="card-container">
+            <span class="card">00</span>
+            <span class="card">00</span>
+            <span class="card">00</span>
+            <span class="card">00</span>
           </div>
-          <h3>Days</h3>
+          <h3 class="card-legend">Days</h3>
         </div>
-        <div class="count-box">
-          <div>
-            <span data-next-count="00">00</span
-            ><span data-current-count="00">00</span>
+
+        <div class="card-box counter--hours">
+          <div class="card-container">
+            <span class="card">00</span>
+            <span class="card">00</span>
+            <span class="card">00</span>
+            <span class="card">00</span>
           </div>
-          <h3>Hours</h3>
+          <h3 class="card-legend">Hours</h3>
         </div>
-        <div class="count-box">
-          <div>
-            <span data-next-count="00">00</span
-            ><span data-current-count="00">00</span>
+
+        <div class="card-box counter--minutes">
+          <div class="card-container">
+            <span class="card">00</span>
+            <span class="card">00</span>
+            <span class="card">00</span>
+            <span class="card">00</span>
           </div>
-          <h3>Minutes</h3>
+          <h3 class="card-legend">Minutes</h3>
         </div>
-        <div class="count-box">
-          <div>
-            <span data-next-count="00">00</span
-            ><span data-current-count="00">00</span>
+
+        <div class="card-box counter--seconds">
+          <div class="card-container">
+            <span class="card">00</span>
+            <span class="card">00</span>
+            <span class="card">00</span>
+            <span class="card">00</span>
           </div>
-          <h3>Seconds</h3>
+          <h3 class="card-legend">Seconds</h3>
         </div>
       </section>
+      <footer>
+        <section class="footer-links">
+          <a href="#">
+            <img src="/images/icon-facebook.svg" alt="Facebook link" />
+          </a>
+          <a href="#">
+            <img src="/images/icon-pinterest.svg" alt="Pinterest link" />
+          </a>
+          <a href="#">
+            <img src="/images/icon-instagram.svg" alt="Instagram link" />
+          </a>
+        </section>
+      </footer>
     </main>
-    <footer>
-      <section class="footer-links">
-        <a href="#">
-          <img src="/images/icon-facebook.svg" alt="Facebook link" />
-        </a>
-        <a href="#">
-          <img src="/images/icon-pinterest.svg" alt="Pinterest link" />
-        </a>
-        <a href="#">
-          <img src="/images/icon-instagram.svg" alt="Instagram link" />
-        </a>
-      </section>
-    </footer>
   </body>
 </html>
