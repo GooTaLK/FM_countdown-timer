@@ -1,4 +1,5 @@
 import setCounter from './modules/setCounter.js'
+import { fillDateLAbel } from "./modules/fillDateLabel.js";
 
 const launchDate = {
   month: 12,
@@ -36,4 +37,5 @@ function setFlipCards() {
   setCounter(timeUntilLaunch)
 }
 
+fillDateLAbel(launch)
 setFlipCards()
