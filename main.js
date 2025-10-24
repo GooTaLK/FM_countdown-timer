@@ -1,15 +1,15 @@
 import setCounter from './modules/setCounter.js'
 
 const launchDate = {
-  month: 7,
-  day: 17,
+  month: 12,
+  day: 25,
   hour: 0,
   minute: 0,
 }
 
 const launch = new Date(
   new Date().getFullYear(),
-  launchDate.month - 1, // Months are 0-indexed in JavaScript
+  launchDate.month - 1,
   launchDate.day,
   launchDate.hour,
   launchDate.minute
