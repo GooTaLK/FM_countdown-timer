@@ -39,13 +39,13 @@ main {
 }
 
 .background .hills {
-  background-image: url(./images/pattern-hills.svg);
+  background-image: url(./public/images/pattern-hills.svg);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
 }
 .background .stars {
-  background-image: url(./images/bg-stars.svg);
+  background-image: url(./public/images/bg-stars.svg);
 }
 
 /* HEADER */
@@ -73,7 +73,6 @@ header {
   max-width: 500px;
   height: 2lh;
 }
-
 
 .cards-container {
   display: flex;
